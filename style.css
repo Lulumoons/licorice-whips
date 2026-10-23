@@ -63,3 +63,20 @@ footer .brand{display:block;margin-bottom:6px}
 .ph{font-family:'Cormorant Garamond',serif;font-style:italic;color:#9a7b6b;font-size:1rem;margin-bottom:14px}
 .btn.disabled{opacity:.6;pointer-events:none}
 @media(min-width:1000px){.grid5{grid-template-columns:repeat(5,minmax(0,210px));gap:48px 28px}.grid5 .card p{font-size:.95rem}}
+/* Hero: text directly on painting, no panel */
+.hero:after{background:radial-gradient(ellipse 60% 55% at 50% 52%,rgba(20,8,6,.6) 0%,rgba(20,8,6,.3) 55%,rgba(20,8,6,.12) 100%),linear-gradient(180deg,rgba(20,8,6,.15),rgba(20,8,6,.35))}
+.hero .plate{background:none;backdrop-filter:none;border:0;padding:20px;max-width:980px}
+.hero .plate:before,.hero .plate:after{display:none}
+.hero .plate h1{color:#fbf3e6;text-shadow:0 2px 18px rgba(0,0,0,.6),0 1px 2px rgba(0,0,0,.45)}
+@media(min-width:761px){.hero .plate h1{white-space:nowrap}}
+.hero .plate .sc{color:#e8d3a6;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.hero .plate .it{color:#f3e6d3;text-shadow:0 1px 10px rgba(0,0,0,.7)}
+.hero .rule{background:linear-gradient(#e2c995,#e2c995) left center/70px 1px no-repeat,linear-gradient(#e2c995,#e2c995) right center/70px 1px no-repeat}
+.hero .rule:after{border-color:#e2c995}
+.hero .btn{color:#fbf3e6;border-color:#e2c995;text-shadow:0 1px 4px rgba(0,0,0,.5);background:rgba(20,8,6,.15)}
+.hero .btn:hover{background:#fbf3e6;color:var(--rose);text-shadow:none}
+@media(max-width:760px){.hero{align-items:center;padding-bottom:0}.hero .plate{background:none}.hero .plate .sc{letter-spacing:.18em;font-size:.72rem}}
+.soon .ribbon{background:none;border:0;color:#fbf3e6;text-shadow:0 1px 6px rgba(0,0,0,.75),0 0 2px rgba(0,0,0,.6);top:16px}
+.hero .plate .sc{font-size:.95rem;color:#f3dfb2;text-shadow:0 0 10px rgba(0,0,0,.9),0 1px 3px rgba(0,0,0,.8)}
+.soon .ribbon{color:#fff8ec;font-size:.9rem;text-shadow:0 0 6px rgba(20,8,6,.95),0 0 14px rgba(20,8,6,.85),0 1px 2px rgba(0,0,0,.9)}
+@media(max-width:760px){.hero .plate .sc{font-size:.75rem}}
