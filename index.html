@@ -3,7 +3,7 @@
 <meta name="description" content="Licorice Whips: a sparkling candy wonderland of gourmet licorice, Christmas candy gifts, fine chocolates, retro sweets, stocking stuffers and cozy cocoa.">
 <meta property="og:type" content="website"><meta property="og:title" content="Licorice Whips · A Magical Candy Wonderland">
 <meta property="og:description" content="Gourmet licorice, Christmas candy gifts, chocolate dreams and cozy cocoa.">
-<meta property="og:image" content="img/og-banner.jpg?v=2"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="img/og-banner.jpg?v=3"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%E2%9C%A6%3C/text%3E%3C/svg%3E"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
@@ -16,7 +16,7 @@ nav{position:sticky;top:0;z-index:40;display:flex;gap:1.1rem;justify-content:cen
 section[id]{scroll-margin-top:5.5rem}
 nav a{text-decoration:none;font-size:1rem;letter-spacing:.08em;text-transform:uppercase;text-shadow:0 2px 6px #000}
 nav a:hover{color:#fff;text-shadow:0 0 12px var(--gold)}
-.hero{position:relative;min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3rem 1rem;background:url(img/hero.jpg?v=2) center/cover;margin-top:-3.2rem}
+.hero{position:relative;min-height:92vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:3rem 1rem;background:url(img/hero.jpg?v=3) center/cover;margin-top:-3.2rem}
 .hero:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,#12061f99 0%,#12061f33 45%,transparent 70%),linear-gradient(transparent 70%,#12061f)}
 .hero>*{position:relative;z-index:1}
 .script{font-family:'Great Vibes',cursive;color:var(--gold);font-size:clamp(1.8rem,4vw,2.8rem);text-shadow:0 2px 10px #000}
@@ -34,6 +34,7 @@ h2{font-family:'Cinzel Decorative',serif;text-align:center;color:var(--gold);fon
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.4rem;max-width:1200px;margin:auto}
 .card{position:relative;padding:1.4rem 1.3rem 1.2rem;border-radius:22px;background:linear-gradient(160deg,#3a1450cc,#1b0b2acc);border:1px solid #f3d38a55;box-shadow:0 10px 30px #0009;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s;overflow:hidden}
 .card:hover{transform:translateY(-6px) rotate(-.4deg);box-shadow:0 14px 40px #000a,0 0 30px #f3d38a44}
+.card .pimg{display:block;width:calc(100% + 2.6rem);margin:-1.4rem -1.3rem 1rem;aspect-ratio:1/1;object-fit:cover;border-bottom:1px solid #f3d38a55}
 .card .gem{font-size:1.6rem;line-height:1}
 .card h3{font-family:'Cormorant Garamond';font-weight:600;font-size:1.35rem;margin:.4rem 0 .3rem;color:#fff}
 .card p{margin:0 0 1rem;font-size:1.05rem;opacity:.92;flex:1}
@@ -42,7 +43,7 @@ h2{font-family:'Cinzel Decorative',serif;text-align:center;color:var(--gold);fon
 .disc{text-align:center;font-style:italic;font-size:.95rem;opacity:.85;margin-top:1.6rem;text-shadow:0 1px 4px #000}
 .spark{position:fixed;pointer-events:none;z-index:60;font-size:14px;color:var(--gold);animation:pop .8s ease-out forwards}
 @keyframes pop{from{opacity:1;transform:translate(0,0) scale(1)}to{opacity:0;transform:translate(var(--x),var(--y)) scale(.3) rotate(180deg)}}
-#finder{padding:5rem 1.2rem;text-align:center;background:url(img/licorice.jpg?v=2) center/cover;position:relative}
+#finder{padding:5rem 1.2rem;text-align:center;background:url(img/licorice.jpg?v=3) center/cover;position:relative}
 #finder:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse,#12061fbb,#12061f 85%)}
 #finder>*{position:relative}
 .q{margin:1.4rem auto;max-width:46rem}.q h4{font-family:'Great Vibes';font-size:2rem;color:var(--gold);margin:.2rem 0;font-weight:400}
@@ -57,7 +58,7 @@ footer .script{font-size:2.4rem}
 @media(max-width:600px){nav{gap:.6rem;font-size:.85rem}nav a{font-size:.8rem}.hero{min-height:80vh}}
 </style></head><body>
 <canvas id="snow"></canvas>
-<nav><a href="#licorice">Licorice Lovers</a><a href="#christmas">Christmas Gifts</a><a href="#chocolate">Chocolate Dreams</a><a href="#gumdrop">Gumdrop Garden</a><a href="#retro">Retro Sweet Shop</a><a href="#stocking">Stocking Stuffers</a><a href="#under25">Under $25</a><a href="#cocoa">Cozy Cocoa</a><a href="#finder">Gift Finder ✦</a></nav>
+<nav><a href="#licorice">Licorice Lovers</a><a href="#christmas">Christmas Gifts</a><a href="#chocolate">Chocolate Dreams</a><a href="#gumdrop">Gumdrop Garden</a><a href="#retro">Retro Sweet Shop</a><a href="#stocking">Stocking Stuffers</a><a href="#under25">Under $25</a><a href="#cocoa">Cozy Cocoa</a><a href="#cadbury">Cadbury Parlor</a><a href="#finder">Gift Finder ✦</a></nav>
 <header class="hero" id="top">
 <div class="script">Welcome to a candy wonderland</div>
 <h1>Licorice Whips</h1>
@@ -90,11 +91,12 @@ const COLS=[["licorice","Licorice Lovers","Ribbons of ruby, cherry, strawberry a
 ["retro","Retro Sweet Shop","Old-fashioned gumdrops, brittle and nostalgic candy boxes that taste like happy memories.","retro","✿"],
 ["stocking","Stocking Stuffers","Little treasures to tuck into every stocking on Christmas Eve.","christmas","★"],
 ["under25","Gifts Under $25","Sweet little luxuries that feel generous and gift beautifully.","retro","♥"],
-["cocoa","Cozy Cocoa","Hot chocolate gift sets and candy-making fun for snowy evenings.","chocolate","☕"]];
+["cocoa","Cozy Cocoa","Hot chocolate gift sets and candy-making fun for snowy evenings.","chocolate","☕"],
+["cadbury","Cadbury Chocolate Parlor","Beloved British chocolates, from Dairy Milk and Flake to Mini Eggs and gift tins.","chocolate","✦"]];
 const url=a=>`https://www.amazon.com/dp/${a}?tag=${TAG}`;
-const card=p=>`<article class="card"><span class="gem">${(COLS.find(c=>c[0]==p.c)||COLS[0])[4]}</span><span class="tag">${(COLS.find(c=>c[0]==p.c)||COLS[0])[1]}</span><h3>${p.n}</h3><p>${p.d}</p><a class="btn" href="${url(p.a)}" target="_blank" rel="sponsored noopener">See it on Amazon ✦</a></article>`;
+const card=p=>`<article class="card">${p.i?`<img class="pimg" src="img/products/${p.i}.jpg?v=3" alt="${p.n}" loading="lazy" width="800" height="800">`:""}<span class="gem">${(COLS.find(c=>c[0]==p.c)||COLS[0])[4]}</span><span class="tag">${(COLS.find(c=>c[0]==p.c)||COLS[0])[1]}</span><h3>${p.n}</h3><p>${p.d}</p><a class="btn" href="${url(p.a)}" target="_blank" rel="sponsored noopener">See it on Amazon ✦</a></article>`;
 document.getElementById('cols').innerHTML=COLS.map(([k,t,l,img])=>{const items=P.filter(p=>k=="under25"?p.u:(p.c==k||(p.x||[]).includes(k)));
-return `<section class="col" id="${k}" style="background-image:url(img/${img}.jpg?v=2)"><div class="script" style="text-align:center">a collection</div><h2>${t}</h2><p class="lede">${l}</p><div class="grid">${items.map(card).join('')}</div><p class="disc">As an Amazon Associate I earn from qualifying purchases.</p></section>`}).join('');
+return `<section class="col" id="${k}" style="background-image:url(img/${img}.jpg?v=3)"><div class="script" style="text-align:center">a collection</div><h2>${t}</h2><p class="lede">${l}</p><div class="grid">${items.map(card).join('')}</div><p class="disc">As an Amazon Associate I earn from qualifying purchases.</p></section>`}).join('');
 // quiz
 const sel={};document.querySelectorAll('.q').forEach(q=>q.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{q.querySelectorAll('.opt').forEach(x=>x.classList.remove('on'));b.classList.add('on');sel[q.dataset.k]=b.dataset.v}));
 document.getElementById('go').onclick=()=>{const s=P.map(p=>{let v=0;if(sel.flavor=="licorice"&&p.c=="licorice")v+=3;else if(sel.flavor&&p.f==sel.flavor)v+=3;
