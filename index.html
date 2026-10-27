@@ -3,7 +3,7 @@
 <meta name="description" content="Licorice Whips: a sparkling candy wonderland of gourmet licorice, Christmas candy gifts, fine chocolates, retro sweets, stocking stuffers and cozy cocoa.">
 <meta property="og:type" content="website"><meta property="og:title" content="Licorice Whips · The Velvet Box Christmas Collection">
 <meta property="og:description" content="Luxury Christmas chocolate gifts from Paris, Brussels and London, plus a whole candy wonderland of sweets. ✦">
-<meta property="og:url" content="https://lulumoons.github.io/licorice-whips/"><meta property="og:image" content="https://lulumoons.github.io/licorice-whips/img/og-velvet.jpg?v=6"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Licorice Whips · The Velvet Box Christmas Collection"><meta name="twitter:description" content="Luxury Christmas chocolate gifts from Paris, Brussels and London. ✦"><meta name="twitter:image" content="https://lulumoons.github.io/licorice-whips/img/og-velvet.jpg?v=6">
+<meta property="og:url" content="https://lulumoons.github.io/licorice-whips/"><meta property="og:image" content="https://lulumoons.github.io/licorice-whips/img/og-velvet.jpg?v=7"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Licorice Whips · The Velvet Box Christmas Collection"><meta name="twitter:description" content="Luxury Christmas chocolate gifts from Paris, Brussels and London. ✦"><meta name="twitter:image" content="https://lulumoons.github.io/licorice-whips/img/og-velvet.jpg?v=7">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%E2%9C%A6%3C/text%3E%3C/svg%3E"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
@@ -34,7 +34,7 @@ h2{font-family:'Cinzel Decorative',serif;text-align:center;color:var(--gold);fon
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.4rem;max-width:1200px;margin:auto}
 .card{position:relative;padding:1.4rem 1.3rem 1.2rem;border-radius:22px;background:linear-gradient(160deg,#3a1450cc,#1b0b2acc);border:1px solid #f3d38a55;box-shadow:0 10px 30px #0009;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s;overflow:hidden}
 .card:hover{transform:translateY(-6px) rotate(-.4deg);box-shadow:0 14px 40px #000a,0 0 30px #f3d38a44}
-.card .pimg{display:block;width:calc(100% + 2.6rem);margin:-1.4rem -1.3rem 1rem;aspect-ratio:1/1;object-fit:cover;border-bottom:1px solid #f3d38a55}
+.card .pimg{display:block;width:calc(100% + 2.6rem);margin:-1.4rem -1.3rem 1rem;aspect-ratio:1/1;height:auto;object-fit:contain;border-bottom:1px solid #f3d38a55}
 .card .gem{font-size:1.6rem;line-height:1}
 .card h3{font-family:'Cormorant Garamond';font-weight:600;font-size:1.35rem;margin:.4rem 0 .3rem;color:#fff}
 .card p{margin:0 0 1rem;font-size:1.05rem;opacity:.92;flex:1}
@@ -82,7 +82,7 @@ footer .script{font-size:2.4rem}
 <p><em>As an Amazon Associate I earn from qualifying purchases.</em></p>
 <p style="opacity:.7;font-size:.9rem">Product details, prices and availability are set by Amazon and may change; prices shown were checked on Amazon on Oct 26, 2026. Please check each listing for ingredients and allergens.</p>
 </footer>
-<script src="products.js?v=6"></script>
+<script src="products.js?v=7"></script>
 <script>
 const TAG="enchantedveil-20",P=window.LW_PRODUCTS;
 const COLS=[["velvet","The Velvet Box Collection","Our most luxurious Christmas gifts: grand Parisian coffrets, Belgian pralines and towering chocolate treasures. Truly yum yum.","velvet","♛"],
@@ -96,9 +96,9 @@ const COLS=[["velvet","The Velvet Box Collection","Our most luxurious Christmas 
 ["cocoa","Cozy Cocoa","Hot chocolate gift sets and candy-making fun for snowy evenings.","chocolate","☕"],
 ["cadbury","Cadbury Chocolate Parlor","Beloved British chocolates, from Dairy Milk and Flake to Mini Eggs and gift tins.","chocolate","✦"]];
 const url=a=>`https://www.amazon.com/dp/${a}?tag=${TAG}`;
-const card=p=>`<article class="card">${p.i?`<img class="pimg" src="img/products/${p.i}.jpg?v=6" alt="${p.n}" loading="lazy" width="800" height="800">`:""}<span class="gem">${(COLS.find(c=>c[0]==p.c)||COLS[0])[4]}</span><span class="tag">${(COLS.find(c=>c[0]==p.c)||COLS[0])[1]}</span><h3>${p.n}</h3><p>${p.d}</p>${p.pr?`<p class="pr">${p.pr} <small>on Amazon, Oct 26</small></p>`:""}<a class="btn" href="${url(p.a)}" target="_blank" rel="sponsored noopener">See it on Amazon ✦</a></article>`;
+const card=p=>`<article class="card">${p.i?`<img class="pimg" src="img/products/${p.i}.jpg?v=7" alt="${p.n}" loading="lazy" width="800" height="800">`:""}<span class="gem">${(COLS.find(c=>c[0]==p.c)||COLS[0])[4]}</span><span class="tag">${(COLS.find(c=>c[0]==p.c)||COLS[0])[1]}</span><h3>${p.n}</h3><p>${p.d}</p>${p.pr?`<p class="pr">${p.pr} <small>on Amazon, Oct 26</small></p>`:""}<a class="btn" href="${url(p.a)}" target="_blank" rel="sponsored noopener">See it on Amazon ✦</a></article>`;
 document.getElementById('cols').innerHTML=COLS.map(([k,t,l,img])=>{const items=P.filter(p=>k=="under25"?p.u:(p.c==k||(p.x||[]).includes(k)));
-return `<section class="col" id="${k}" style="background-image:url(img/${img}.jpg?v=6)"><div class="script" style="text-align:center">a collection</div><h2>${t}</h2><p class="lede">${l}</p><div class="grid">${items.map(card).join('')}</div><p class="disc">As an Amazon Associate I earn from qualifying purchases.</p></section>`}).join('');
+return `<section class="col" id="${k}" style="background-image:url(img/${img}.jpg?v=7)"><div class="script" style="text-align:center">a collection</div><h2>${t}</h2><p class="lede">${l}</p><div class="grid">${items.map(card).join('')}</div><p class="disc">As an Amazon Associate I earn from qualifying purchases.</p></section>`}).join('');
 // quiz
 const sel={};document.querySelectorAll('.q').forEach(q=>q.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{q.querySelectorAll('.opt').forEach(x=>x.classList.remove('on'));b.classList.add('on');sel[q.dataset.k]=b.dataset.v}));
 document.getElementById('go').onclick=()=>{const s=P.map(p=>{let v=0;if(sel.flavor=="licorice"&&p.c=="licorice")v+=3;else if(sel.flavor&&p.f==sel.flavor)v+=3;
